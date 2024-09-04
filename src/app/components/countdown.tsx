@@ -79,7 +79,7 @@ const Countdown = () => {
   return (
     <div className="flex items-center bg-slate-500 h-screen justify-center">
         <div className="w-full max-w-md bg-slate-700 rounded-xl border-[3px] border-slate-900 shadow-slate-900 shadow-lg">
-            <h1 className="text-lg font-serif font-extrabold mx-[30%] mt-[10%]">Countdown Timer</h1>
+            <h1 className="sm:text-lg text-xs font-serif font-extrabold mx-[30%] mt-[10%]">Countdown Timer</h1>
             <div className="flex mt-[10%] ">
                 <Input type="number" id="duration" value={duration} onChange={handleDurationChange} placeholder="Enter duration in seconds" className="border-2 border-slate-900 mx-[5%] p-[6px] pr-[25%] rounded-sm bg-transparent shadow-slate-900 shadow-md" />
                 <Button onClick={handleSetDuration} className="border-2 border-slate-900 py-[1%] px-[3%] mr-[4%] rounded-sm shadow-slate-900 shadow-md active:scale-90 duration-75 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-opacity-75">set</Button>
